@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import Title from "./Components/Title";
-import React from "react";
 function App() {
   return (
    <div>
