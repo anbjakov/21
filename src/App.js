@@ -1,9 +1,10 @@
 import Title from "./Components/Title";
 function App() {
+
   return (
    <div>
-       <Title name="Products" type="bold" />
-       <Title name="Employees" type="normal" />
+       <Title name="Products" type="bold"/>
+       <Title name="Employees" type="normal"/>
    </div>
   )
 }

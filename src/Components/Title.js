@@ -1,9 +1,8 @@
 
 const Title = ({type, name})=>{
-    const fontWeight = type ==="bold"? "bold":"normal";
-    return (
+   return (
         <div>
-            <h1 className={fontWeight}>{name}</h1>
+            <h1 style={{fontWeight: type} }>{name}</h1>
         </div>
     )
 }
