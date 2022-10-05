@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Title from "./Components/Title";
 import Button from "./Components/Button";
-import {findShadowRoot} from "bootstrap/js/src/util";
 function App() {
     const [isOpened, setOpen] = useState(false);
     const toggleComponent = ()=>{
