@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Title from "./Components/Title";
-import Button from "./Components/Button";
+import Title from "./components/Title";
+import Button from "./components/Button";
 function App() {
     const [isOpened, setOpen] = useState(false);
     const toggleComponent = ()=>{
@@ -8,7 +8,7 @@ function App() {
     }
     return (
    <div className="container">
-       <Button handleClick={toggleComponent} btnTitle={isOpened ? "Close title":"Open title"}/>
+       <Button onClick={toggleComponent}>{isOpened ? "Close title":"Open title"}</Button>
        {isOpened && <Title name="Products" type="bold"/>}
    </div>
   )

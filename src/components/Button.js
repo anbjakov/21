@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
-const Button = ({handleClick, btnTitle})=>{
-    return <button onClick={handleClick} className="btn btn-primary">{btnTitle}</button>
+const Button = ({onClick, children})=>{
+    return <button onClick={onClick} className="btn btn-primary">{children}</button>
 }
 Button.propTypes = {
-    handleClick: PropTypes.func,
-    btnTitle: PropTypes.string,
+    onClick: PropTypes.func,
+    children: PropTypes.string,
 }
 export default Button
