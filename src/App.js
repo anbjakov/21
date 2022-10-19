@@ -9,7 +9,7 @@ function App() {
     return (
    <div className="container">
        <Button onClick={toggleComponent}>{isOpened ? "Close Title":"Open Title"}</Button>
-       {isOpened && <Title/>}
+       {isOpened && <Title name="Products" type="bold"/>}
    </div>
   )
 }
