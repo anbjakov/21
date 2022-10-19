@@ -15,6 +15,6 @@ Title.defaultProps  = {
 
 Title.propTypes = {
     name: PropTypes.string.isRequired,
-    type: PropTypes.oneOf(['bold','normal']),
+    type: PropTypes.oneOf(['bold','normal']).isRequired,
 }
 export default Title
